@@ -6,7 +6,6 @@ using UnityEngine.Networking;
 
 public class NetworkedClient : MonoBehaviour
 {
-
     int connectionID;
     int maxConnections = 1000;
     int reliableChannelID;
@@ -16,19 +15,17 @@ public class NetworkedClient : MonoBehaviour
     byte error;
     bool isConnected = false;
     int ourClientID;
-
-    // Start is called before the first frame update
+    
     void Start()
     {
         Connect();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.S))
-            SendMessageToHost("Hello from client");
-
+        // if(Input.GetKeyDown(KeyCode.S))
+        //     SendMessageToHost("Hello from client");
+        
         UpdateNetworkConnection();
     }
 
@@ -111,6 +108,4 @@ public class NetworkedClient : MonoBehaviour
     {
         return isConnected;
     }
-
-
 }

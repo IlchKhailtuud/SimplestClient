@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 201032679}
   - component: {fileID: 201032680}
   m_Layer: 5
-  m_Name: ToggleCreate
+  m_Name: toggleCreate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -287,7 +287,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &475911802
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,7 +763,7 @@ GameObject:
   - component: {fileID: 949767996}
   - component: {fileID: 949767995}
   m_Layer: 5
-  m_Name: InputPassword
+  m_Name: inputFieldPassword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -787,7 +787,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 90, y: -35.3}
+  m_AnchoredPosition: {x: 90, y: -33.9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &949767995
@@ -909,7 +909,7 @@ GameObject:
   - component: {fileID: 1039219899}
   - component: {fileID: 1039219898}
   m_Layer: 5
-  m_Name: InputUserName
+  m_Name: inputFieldUserName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1444,7 +1444,7 @@ GameObject:
   - component: {fileID: 1528947372}
   - component: {fileID: 1528947371}
   m_Layer: 0
-  m_Name: NetworkClient
+  m_Name: networkedClient
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1636,7 +1636,7 @@ GameObject:
   - component: {fileID: 1757013615}
   - component: {fileID: 1757013614}
   m_Layer: 5
-  m_Name: SubmitButton
+  m_Name: buttonSubmit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1910,7 +1910,7 @@ GameObject:
   - component: {fileID: 2098076411}
   - component: {fileID: 2098076412}
   m_Layer: 5
-  m_Name: ToggleLogin
+  m_Name: toggleLogin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
